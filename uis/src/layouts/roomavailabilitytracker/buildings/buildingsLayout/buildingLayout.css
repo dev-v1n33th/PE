@@ -1,0 +1,51 @@
+.click {
+    
+        cursor: pointer;
+        border-radius: 25px;
+    }
+    .inNoticeText{
+        color: gold;
+    }
+  
+    .availableBedText{
+        color: #07bc0c;
+    }
+    .dueGuestsText{
+        color: red;
+    }
+
+    .activeGuestsText{
+        color: rgb(0, 60, 255);
+    }
+    /* .roomColor{
+        color: palevioletred;
+    }
+    .floorColor{
+        color:orange;
+    }
+    .buildingColor{
+        color:rgb(92, 188, 217)
+    } */
+    .availableBed{
+        color: #07bc0c;
+        padding-top: 2px;
+        margin-left: 50px;
+    }
+    .dueGuests{
+        color: red;
+        padding-top: 2px;
+        margin-left: 50px;
+    }
+    .activeGuests{
+        color: rgb(0, 60, 255);
+        padding-top: 2px;
+        margin-left: 50px;
+    }
+    .inNotice{
+        color: gold;
+        padding-top: 2px;
+        margin-left: 50px;  
+    }
+/* .click:hover {
+           opacity: 0.3;
+        } */

@@ -1,0 +1,91 @@
+.float-container {
+    /*border: 3px solid #fff;*/
+    padding: 10px;
+    width: 930px;
+    height: 370px;
+    border: 2px solid rgb(142, 140, 140);
+    border-radius:10px
+    
+
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 5px;
+    color: rgb(96, 94, 94);
+    font-style: normal;
+    font-family: Garamond;
+    font-size:19px;
+    font-weight:bold;
+   
+}  
+.header-p{
+    font-weight: 800;
+    color: black;
+    text-align: center;
+
+}
+.payBox{
+    padding: 10px;
+    width: 930px;
+    height: auto;
+    border: 2px solid rgb(142, 140, 140);
+    border-radius:10px
+}
+.float-child-2{
+    width: 50%;
+    float: left;
+    /* padding: 20px; */
+    padding-right: 15px;
+    color: rgb(96, 94, 94);
+    font-style: normal;
+    font-family: Garamond;
+    font-size:19px;
+    font-weight:bold;
+}
+.float-child-1{
+    width: 50%;
+    float: left;
+    /* padding: 20px; */
+    padding-left: 40px;
+    padding-right: 5px;
+    color: rgb(96, 94, 94);
+    font-style: normal;
+    font-family: Garamond;
+    font-size:19px;
+    font-weight:bold;
+}
+.checkOutBox{
+    padding: 10px;
+    width: 930px;
+    height: 150px;
+    border: 2px solid rgb(142, 140, 140);
+    border-radius:10px
+}
+.head-1-checkOut{
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+.Text-CheckOut{
+
+    padding-top: 20px;
+    color: rgb(96, 94, 94);
+    font-style: normal;
+    font-family: Garamond;
+    font-size:19px;
+    font-weight:bold;
+}
+
+.record-payment{
+    padding: 10px;
+    width: 930px;
+    height: 200px;
+    border: 2px solid rgb(142, 140, 140);
+    border-radius:10px;
+    padding-top: 30px;
+}

@@ -1,0 +1,14 @@
+.pic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.btn{
+  /* padding-right: 5px; */
+  /* margin-left: 50%; */
+  margin-right: 50%;
+  position: absolute;
+  /* top: 50%; */
+
+}

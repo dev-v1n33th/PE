@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: gatewayService
+  cloud:
+    gateway:
+      routes:
+        - id: guestService
+          uri: lb://guestService
+          predicates:
+            - Path=/guest/**
+
+        - id: paymentService
+          uri: lb://paymentService
+          predicates:
+            - Path=/payment/**
+
+        - id: bedService
+          uri: lb://bedService
+          predicates:
+            - Path=/bed/**
+
+        - id: loginService
+          uri: lb://loginService
+          predicates:
+            - Path=/login/**
+            
+        - id: emailService
+          uri: lb://emailService
+          predicates:
+            - Path=/mail/**    
+
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+
+server:
+  port: 8989
